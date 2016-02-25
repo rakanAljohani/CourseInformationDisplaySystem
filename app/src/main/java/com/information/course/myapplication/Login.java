@@ -47,7 +47,9 @@ public class Login extends AppCompatActivity {
             Toast.makeText(Login.this,"password Empty",Toast.LENGTH_SHORT).show();
 
         }else {
+
                 startActivity(new Intent(Login.this,MainActivity.class));
+                  finish();
             }
 
 

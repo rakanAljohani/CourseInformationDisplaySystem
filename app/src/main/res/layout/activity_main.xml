@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="schedule"
-            android:id="@+id/schedule"
+            android:id="@+id/schedule_button"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Messages"
-            android:id="@+id/button2"
+            android:id="@+id/messages_button"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp" />
     </LinearLayout>
