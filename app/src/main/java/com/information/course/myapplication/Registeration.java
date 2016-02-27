@@ -1,13 +1,11 @@
 package com.information.course.myapplication;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -91,7 +89,7 @@ public class Registeration extends AppCompatActivity {
                                     pass.setText("");
                                     conpass.setText("");
 
-                                    Toast.makeText(getApplicationContext(),"Data Inserted Successfully"+response, Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(),"Data Inserted Successfully", Toast.LENGTH_LONG).show();
                                     finish();
                                 }
                             }, new Response.ErrorListener() {
